@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/bizworks/Android/Hello03/app/src/main/res/layout/activity_join.xml" value="0.36614583333333334" />
+        <entry key="..\:/bizworks/Android/Hello06/app/src/main/res/layout/activity_main.xml" value="0.28804347826086957" />
+        <entry key="..\:/bizworks/Android/Hello06/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.38229166666666664" />
+        <entry key="..\:/bizworks/Android/Hello06/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.38229166666666664" />
       </map>
     </option>
   </component>

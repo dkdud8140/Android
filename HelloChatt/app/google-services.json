@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405581398979",
+    "project_id": "example-eb4c5",
+    "storage_bucket": "example-eb4c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405581398979:android:1122cb24ad97059d1ef376",
+        "android_client_info": {
+          "package_name": "com.choay.chatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405581398979-ve47onsi6tocaoqqqih3df2fj06d0uj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ8Y463AV0CQVG2kbq8LK_kQXaFDF2wJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405581398979-ve47onsi6tocaoqqqih3df2fj06d0uj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
