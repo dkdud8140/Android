@@ -21,6 +21,25 @@ public class chattAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     private List<chatt> cattList;
 
+    /*
+    외부에서 chatt 데이터 아이템을 List를 추가하고
+    추가된 LIst는 RecycleseView를 통해서 화면에 다시 그려기제 될 것이다
+    @param chatt
+     */
+    public void addChatList(chatt chatt) {
+
+        // 메시지를 List에 추가하기
+        cattList.add(chatt);
+
+        //RecyclerView에 chattList가 변화되었으니
+        // 다시 화면에 그려라
+        // chattList의 끝(size() -1 위치)에에
+        // 값이 추되었으니 다시 그려라
+        notifyItemInserted(cattList.size() -1);
+
+    }
+
+
     public chattAdapter(List<chatt> cattList) {
         this.cattList = cattList ;
     }
