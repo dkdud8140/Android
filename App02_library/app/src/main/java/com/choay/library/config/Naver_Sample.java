@@ -1,6 +1,6 @@
 package com.choay.library.config;
 
-public class Naver {
+public class Naver_Sample {
 
     // Naver Open API 연동을 위한 ID와 PW
     public static String CLIENT_ID = "your naver client id";
