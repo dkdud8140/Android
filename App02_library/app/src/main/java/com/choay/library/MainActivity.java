@@ -2,6 +2,7 @@ package com.choay.library;
 
 import android.os.Bundle;
 
+import com.choay.library.service.NaverAPIServiceV1;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -51,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
-
         // fab = findByViewId(R.id.fab)이런 코드가 필요했으나
         // binding이 성립된 경우는 필요 없는 코드가 된다.
         // binding.fab 객체에 접근하여 event 등을 선언할 수 있게 된다.
@@ -60,6 +60,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
+//                NaverAPIServiceV1 naver = new NaverAPIServiceV1();
+//                naver.getNaverBooks("자바");
             }
         });
     }
