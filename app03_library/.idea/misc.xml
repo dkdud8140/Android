@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/bizworks/Android/app03_library/app/src/main/res/drawable/ic_launcher_background.xml" value="0.353125" />
         <entry key="..\:/bizworks/Android/app03_library/app/src/main/res/layout/activity_main.xml" value="0.28804347826086957" />
+        <entry key="..\:/bizworks/Android/app03_library/app/src/main/res/layout/book_item_view.xml" value="0.33" />
       </map>
     </option>
   </component>
