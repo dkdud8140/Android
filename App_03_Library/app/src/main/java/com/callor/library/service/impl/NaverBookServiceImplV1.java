@@ -23,6 +23,7 @@ public class NaverBookServiceImplV1 implements NaverBookService {
 
     private RecyclerView recyclerView;
     public NaverBookServiceImplV1(RecyclerView recyclerView) {
+
         this.recyclerView = recyclerView;
     }
 

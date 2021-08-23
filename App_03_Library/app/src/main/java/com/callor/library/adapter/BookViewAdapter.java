@@ -159,6 +159,9 @@ public class BookViewAdapter extends RecyclerView.Adapter {
      *  이 TextView를 사용할수 있도록 객체로 만드는일
      *
      */
+
+
+
     public static class BookItemHolder extends RecyclerView.ViewHolder {
         public TextView item_title;
         public ImageView item_image;

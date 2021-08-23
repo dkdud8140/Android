@@ -1,6 +1,8 @@
 package com.choay.mymovie.service;
 
+import com.choay.mymovie.model.MovieDTO;
+
 public interface NaverApiService {
 
-    public void getNaverData(String search);
+    public MovieDTO getNaverData(String search);
 }
